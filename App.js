@@ -14,10 +14,7 @@ export default function App() {
         <View style={styles.iconBoxHeader}>
           <AntDesign style={styles.AntDesign} name="clock-circle" size={24} color="white"/>
         </View>
-
-
-       
-
+        
         {/* Container para empilhar os textos na direita do ícone */}
         <View style={styles.textGroup}>
           <Text style={styles.headerTitle}> ShiftSync </Text>
@@ -27,7 +24,7 @@ export default function App() {
 
       {/* CONTEÚDO QUE ROLA (MIOLO) */}
       <ScrollView contentContainerStyle={styles.scrollContent}>
-    
+        {/* Aqui você pode adicionar o conteúdo do seu aplicativo, como listas, formulários, etc. */}
       </ScrollView>
   
       {/* FOOTER FIXO (NAVBAR) */}
